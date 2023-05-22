@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Country, City} from "country-state-city"
 import Select from 'react-select';
 import { useRouter } from 'next/navigation'; // nextjs 13 uses 'navigation' instead or 'router

@@ -8,7 +8,7 @@ import TempChart from '@/components/TempChart';
 import fetchWeatherQuery from '@/graphql/queries/fetchWeatherQueries';
 import cleanData from '@/lib/cleanData';
 import getBasePath from '@/lib/getBasePath';
-import React from 'react'
+
 
 export const revalidate = 1440; // ensure page revalidates after 60 seconds instead of using cache 
 

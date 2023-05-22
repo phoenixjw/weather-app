@@ -1,7 +1,5 @@
 'use client'
 
-import React from 'react'
-
 import { Card, Color, Metric, Text} from "@tremor/react";
 
 type Props = {

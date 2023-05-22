@@ -1,4 +1,3 @@
-import React from 'react'
 import CityPicker from './CityPicker';
 import weatherCodeToString from '@/lib/weatherCodeToString';
 import Image from 'next/image';

@@ -1,5 +1,4 @@
 import { SunIcon } from '@heroicons/react/solid'
-import React from 'react'
 
 function Loading() {
   return (
