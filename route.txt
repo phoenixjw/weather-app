@@ -1,3 +1,5 @@
+// app/api/getWeatherSummary/
+
 // import { NextResponse } from "next/server";
 // import openai from "@/openai"
 
