@@ -37,18 +37,18 @@ async function WeatherPage({params: {city, lat, long}}: Props) {
 
   const dataToSend = cleanData(results, city);
 
-  const res = await fetch(`${getBasePath()}/api/getWeatherSummary`, {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-    },
-    body: JSON.stringify({
-      weatherData: dataToSend
-    })
-  });
+  // const res = await fetch(`${getBasePath()}/api/getWeatherSummary`, {
+  //   method: "POST",
+  //   headers: {
+  //     "content-type": "application/json",
+  //   },
+  //   body: JSON.stringify({
+  //     weatherData: dataToSend
+  //   })
+  // });
 
-  const GPTdata = await res.json();
-  const { content } = GPTdata
+  // const GPTdata = await res.json();
+  // const { content } = GPTdata
 
   console.log(results)
 
@@ -67,7 +67,8 @@ async function WeatherPage({params: {city, lat, long}}: Props) {
 
           <div className='m-2 mb-10'>
             <CalloutCard
-              message={content}  
+              // message={content}  
+              message='This is where the GPT 3.5 data would go, this version isnt currently in deployment. To see the code for this, it can be found in my Github'
             />
           </div>
 
